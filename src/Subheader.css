@@ -1,0 +1,45 @@
+.subheader {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #232f3e;
+
+  top: 0;
+  z-index: 100;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.subheader__location {
+  display: flex;
+  color: white !important;
+  align-items: center;
+}
+
+.subheader__location > p {
+  display: flex;
+  flex-direction: column;
+  line-height: 1rem;
+}
+
+.subheader_locationIcon {
+  width: 35px !important;
+  color: white !important;
+  height: 35px !important;
+}
+
+.subheader__list > ul {
+  display: flex;
+  color: rgb(199, 199, 199);
+  justify-content: space-between;
+}
+
+.subheader__list > ul > li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.subheader__covid > h4 {
+  color: white !important;
+  font-weight: 800;
+}
